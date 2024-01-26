@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+section{
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background:url(../Images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#hero .container{
+    background-color: rgb(193, 231, 111);
+      padding-top: 20px;
+      padding-bottom: 15px;
+      border-radius: 10%;
+}
+#hero h1{
+    background-color: rgb(193, 231, 111);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+#hero h2{
+    color:#eee;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+}
+
+#hero .btn_get_started{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid #fff;
+    background-color: transparent ;
+    color: #fff;
+    transition:0.5s all; 
+}
+
+#hero .btn_get_started:hover{
+    background-color: #009970 ;
+    border: 2px solid #009970 ;;
+}
